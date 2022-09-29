@@ -9,15 +9,16 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        tools:layout_editor_absoluteY="327dp" />
 
-    <TextView
-        android:id="@+id/textView3"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
-        tools:layout_editor_absoluteX="225dp" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="200dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
