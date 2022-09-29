@@ -10,15 +10,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="382dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        tools:layout_editor_absoluteY="388dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        tools:layout_editor_absoluteX="225dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
